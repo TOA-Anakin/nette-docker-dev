@@ -6,7 +6,7 @@ Highly customizable Docker setup for Nette projects development.
 
 1. Create `.docker/local/.env` based on `.docker/local/.env.example`.
 2. Start containers using `./run.sh local up`.
-3. Access the PHP container terminal using `docker exec -it ${APP_NAME}_php bash` (replace `${APP_NAME}` with your app name). Now, you can create a Nette project using:
+3. Access the PHP container terminal using `docker exec -it ${APP_NAME}_php bash` (replace `${APP_NAME}` with your app name). In the PHP container terminal, you can create a Nette project using:
 ```sh
 composer create-project nette/web-project nette_app
 ```
